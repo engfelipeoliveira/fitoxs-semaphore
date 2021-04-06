@@ -13,4 +13,4 @@ blocks:
             - checkout
         - name: 'Job #2'
           commands:
-            - 'curl -k -u s1yTOwjVqGlGYz!1XMEc1615502000:b7cf644f6cb88d8bd7b5cc22696ba9c7 --request POST -H "Content-Type:application/json" -d "{\"pit\":\"305\",\"targetid\":\"z0n7WaF1Fl8FvUmyQLjU1617665944\",\"ci\":\"Buddy\",\"tipo\":\"16\"}" https://fitoxs.com/ScanTarget/index.php'
+            - 'curl -k -u ${FITOXSUID}:${FITOXSTOKEN} --request POST -H "Content-Type:application/json" -d "{\"pit\":\"305\",\"targetid\":\"z0n7WaF1Fl8FvUmyQLjU1617665944\",\"ci\":\"Buddy\",\"tipo\":\"16\"}" https://fitoxs.com/ScanTarget/index.php'
