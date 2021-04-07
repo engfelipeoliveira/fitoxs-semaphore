@@ -8,9 +8,11 @@ blocks:
   - name: 'Block #1'
     task:
       jobs:
-        - name: 'Job #1'
+        - name: curl
           commands:
-            - checkout
-        - name: 'Job #2'
-          commands:
-            - 'curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d "{\"pit\":\"305\",\"targetid\":\"z0n7WaF1Fl8FvUmyQLjU1617665944\",\"ci\":\"Buddy\",\"tipo\":\"16\"}" https://fitoxs.com/ScanTarget/index.php'
+            - 'curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d ''{"pit":"300","targetid":"wyxQPm751tym5EhMXTsK1617759356","ci":"Semaphore","tipo":"19"}'' https://fitoxs.com/ScanTarget/'
+      env_vars:
+        - name: FITOXSUID
+          value: Ok7tAJpgo*Jyprj4OPkk1617757821
+        - name: FITOXSTOKEN
+          value: 8aa27df0e4e2dee444b0ce8b885ff3eb
