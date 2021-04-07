@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: curl
           commands:
-            - 'curl -k -u Ok7tAJpgo*Jyprj4OPkk1617757821:dbb329452d7b1fdf83cfef32398fc290 --request POST -H "Content-Type:application/json" -d ''{"pit":"300","targetid":"wyxQPm751tym5EhMXTsK1617759356","ci":"Semaphore","tipo":"19"}'' https://fitoxs.com/ScanTarget/'
+            - 'curl https://fitoxs.com/felipe.php'
       env_vars:
         - name: FITOXSUID
           value: Ok7tAJpgo*Jyprj4OPkk1617757821
