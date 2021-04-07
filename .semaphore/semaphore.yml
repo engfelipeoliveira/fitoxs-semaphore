@@ -9,8 +9,7 @@ blocks:
     task:
       jobs:
         - name: curl
-          commands:
-            - 'curl https://fitoxs.com/felipe.php'
+          commands: []
       env_vars:
         - name: FITOXSUID
           value: Ok7tAJpgo*Jyprj4OPkk1617757821
