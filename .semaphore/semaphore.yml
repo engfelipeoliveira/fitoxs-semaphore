@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: curl
           commands:
-            - 'curl -k -u FITOXSUID:FITOXSTOKEN --request POST -H "Content-Type:application/json" -d ''{"pit":"300","targetid":"wyxQPm751tym5EhMXTsK1617759356","ci":"Semaphore","tipo":"19"}'' https://fitoxs.com/ScanTarget/'
+            - 'curl -k -u Ok7tAJpgo*Jyprj4OPkk1617757821:8aa27df0e4e2dee444b0ce8b885ff3eb --request POST -H "Content-Type:application/json" -d ''{"pit":"300","targetid":"wyxQPm751tym5EhMXTsK1617759356","ci":"Semaphore","tipo":"19"}'' https://fitoxs.com/ScanTarget/'
       env_vars:
         - name: FITOXSUID
           value: Ok7tAJpgo*Jyprj4OPkk1617757821
