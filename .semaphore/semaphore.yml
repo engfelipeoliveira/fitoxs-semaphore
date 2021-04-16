@@ -9,10 +9,5 @@ blocks:
     task:
       jobs:
         - name: curl
-          commands:
-            - 'curl -k -u $FITOXSUID:$FITOXSTOKEN --request POST -H "Content-Type:application/json" -d ''{"pit":"310","targetid":"cLbkwOeiSV02egU6MZMX1618535144","ci":"Semaphore","tipo":"19"}'' https://fitoxs.com/ScanTarget/'
-      env_vars:
-        - name: FITOXSUID
-          value: 87ByfcwKKn0hufMVW8@S1617760170
-        - name: FITOXSTOKEN
-          value: b06e0661170a02c628f44bb535521361
+          commands: []
+      env_vars: []
